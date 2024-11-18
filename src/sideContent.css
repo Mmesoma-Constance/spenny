@@ -1,0 +1,313 @@
+.payment-section {
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.payment-section .payment-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-section .payment-heading h1 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.payment-section .payment-heading button {
+  background: gold;
+  color: brown;
+  padding: 6px 20px;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.payment-section button:hover {
+  opacity: 85%;
+}
+
+.payment-section ul {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.payment-section li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-section h3 {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.payment-section h4 {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+/* activity */
+
+.activity {
+  width: 100%;
+  margin-top: 20px;
+  text-align: left;
+  padding: 10px 20px;
+}
+.activity ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.activity li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.activity .data-square {
+  width: 15px;
+  height: 15px;
+  background: #ff6b6b;
+}
+
+.activity .water-square {
+  width: 15px;
+  height: 15px;
+  background: #4cd137;
+}
+
+.activity .online-square {
+  width: 15px;
+  height: 15px;
+  background: #00a8ff;
+}
+
+.activity .groceries-square {
+  width: 15px;
+  height: 15px;
+  background: #fbc531;
+}
+
+.activity .home-square {
+  width: 15px;
+  height: 15px;
+  background: #e84118;
+}
+
+.activity .investment-square {
+  width: 15px;
+  height: 15px;
+  background: #9b59b6;
+}
+
+/* circle */
+
+.circle-div h1 {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  padding-bottom: 20px;
+  align-self: self-start;
+  left: 0;
+}
+
+/* circle */
+
+.circle-div {
+  margin-top: 50px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Outer circle container */
+.circle-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+/* Main circle background */
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(
+    #ff6b6b 0deg 80deg,
+    #4cd137 100deg 130deg,
+    #00a8ff 140deg 220deg,
+    #fbc531 230deg 280deg,
+    #e84118 290deg 320deg,
+    #9b59b6 325deg 360deg
+  );
+}
+
+/* Inner circle to create the hollow effect */
+.circle::before {
+  content: "";
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Centered text inside the circle */
+.circle-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+
+.circle-text h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.circle-text span {
+  display: block;
+  font-size: 14px;
+  color: #666;
+}
+
+/* goals */
+
+.goals-div {
+  margin-top: 50px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.goals-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goals-heading button {
+  background: gold;
+  color: brown;
+  padding: 6px 20px;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.goals-heading button:hover {
+  opacity: 85%;
+}
+
+.goals-div h1 {
+  font-size: 25px;
+  font-weight: bold;
+  left: 0;
+}
+
+.goals-div li {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.travel-progress-container {
+  width: 100%;
+  background: rgba(128, 128, 128, 0.881);
+  height: 10px;
+
+  margin-bottom: 15px;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.travel-progress {
+  position: absolute;
+  z-index: 10;
+  width: 20%;
+  height: 10px;
+  background: gold;
+}
+
+.iphone-progress-container {
+  width: 100%;
+  background: rgba(128, 128, 128, 0.881);
+  height: 10px;
+
+  margin-bottom: 15px;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.iphone-progress {
+  position: absolute;
+  z-index: 10;
+  width: 43%;
+  height: 10px;
+  background: gold;
+}
+
+.macbook-progress-container {
+  width: 100%;
+  background: rgba(128, 128, 128, 0.881);
+  height: 10px;
+
+  margin-bottom: 15px;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.macbook-progress {
+  position: absolute;
+  z-index: 10;
+  width: 14%;
+  height: 10px;
+  background: gold;
+}
+
+.car-progress-container {
+  width: 100%;
+  background: rgba(128, 128, 128, 0.881);
+  height: 10px;
+
+  margin-bottom: 15px;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.car-progress {
+  position: absolute;
+  z-index: 10;
+  width: 8%;
+  height: 10px;
+  background: gold;
+}

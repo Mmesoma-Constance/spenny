@@ -1,0 +1,154 @@
+/* .payment-section-content {
+  flex: 2;
+  padding: 10px 15px;
+  margin-left: 240px;
+  margin-top: 100px;
+  max-width: calc(100% - 250px);
+} */
+
+.payment-container {
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  display: flex;
+  gap: 60px;
+}
+
+/* payment-circle */
+
+.payment-circle-div h1 {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  padding-bottom: 20px;
+  align-self: self-start;
+  left: 0;
+}
+
+/* payment-circle */
+
+.payment-circle-div {
+  margin-top: 50px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Outer payment-circle container */
+.payment-circle-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+/* Main payment-circle background */
+.payment-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(#ff6b6b 0deg 110deg, #00a8ff 110deg 360deg);
+}
+
+/* Inner payment-circle to create the hollow effect */
+.payment-circle::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* transfer */
+
+.transfer-section {
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+/* table */
+
+.expected-container {
+  margin-top: 40px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.expected-payment-table {
+  width: 100%;
+
+  padding: 25px;
+}
+
+.expected-payment-table h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.expected-payment-table p {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 10px 0;
+  color: brown;
+}
+
+.expected-payment-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.expected-payment-table thead {
+  background: #ffd90031;
+}
+
+.expected-payment-table tr {
+  width: 200px;
+}
+
+.expected-payment-table td {
+  padding-bottom: 15px;
+  padding-left: 30px;
+}
+
+.expected-payment-table .due {
+  /* font-size: 16px; */
+  color: red;
+}
+.expected-payment-table .credit {
+  font-size: 16px;
+  color: green;
+}
+
+.expected-payment-table th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  word-wrap: break-word;
+}
+/* 
+.expected-payment-table tbody tr:nth-child(even) {
+  
+  background-color: #f9f9f9;
+} */

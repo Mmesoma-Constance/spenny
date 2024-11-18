@@ -1,0 +1,110 @@
+.cards-content {
+  flex: 2;
+  padding: 10px 15px;
+  margin-left: 240px;
+  margin-top: 100px;
+  max-width: calc(100% - 250px);
+}
+
+.card {
+  width: 400px;
+  padding: 20px;
+  color: white;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card1 {
+  background-image: url("./card-image-4.png");
+}
+
+.card2 {
+  /* background: linear-gradient(135deg, #4cd137, #32ff7e); */
+  background-image: url("./card-image8.avif");
+}
+
+.small-card1 {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: url("./card-image-4.png");
+  width: 100px;
+
+  display: block;
+}
+
+/* table */
+
+.cards-container {
+  margin-top: 40px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.cards-table {
+  width: 100%;
+  padding: 25px;
+  gap: 20px;
+}
+
+.cards-table h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.cards-table p {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 10px 0;
+  color: brown;
+}
+
+.cards-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 17px;
+  margin-bottom: 10px;
+  border-collapse: separate;
+  border-spacing: 20px 10px;
+}
+
+.cards-table thead {
+  background: #ffd90031;
+}
+
+.cards-table tr {
+  width: 200px;
+  padding-bottom: 35px;
+  border-collapse: separate;
+  border-spacing: 20px 10px;
+}
+
+.cards-table td {
+  padding-bottom: 25px;
+  padding-left: 30px;
+}
+
+.cards-table .due {
+  /* font-size: 16px; */
+  color: red;
+}
+.cards-table .credit {
+  font-size: 16px;
+  color: green;
+}
+
+.cards-table th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  word-wrap: break-word;
+}
+
+table img {
+  width: 120px;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}

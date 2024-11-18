@@ -1,0 +1,131 @@
+.subscribe-content-area {
+  padding: 10px 15px;
+  margin-left: 240px;
+  margin-top: 80px;
+}
+
+.subscribe-flex-area {
+  display: flex;
+  gap: 22px;
+}
+
+.subscribe-content {
+  flex: 1.8;
+}
+
+.side-content {
+  flex: 2.2;
+}
+
+.graph-container {
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* table */
+
+.subscribe-container {
+  margin-top: 40px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px 0;
+}
+
+.subscribe-table {
+  width: 100%;
+  padding: 25px;
+  gap: 20px;
+}
+
+.subscribe-table h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.subscribe-table p {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 10px 0;
+  color: brown;
+}
+
+.subscribe-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 17px;
+  margin-bottom: 10px;
+  border-collapse: separate;
+  border-spacing: 20px 10px;
+  margin-right: 20px;
+}
+
+.subscribe-table thead {
+  background: #ffd90031;
+  width: 100%;
+  margin-left: 30px;
+  border-spacing: 20px 10px;
+  text-align: center;
+}
+
+.subscribe-table tr {
+  width: 200px;
+  padding-bottom: 35px;
+  border-collapse: separate;
+  border-spacing: 20px 10px;
+}
+
+.subscribe-table td {
+  padding-bottom: 25px;
+  padding-left: 30px;
+}
+
+.subscribe-table .due {
+  color: red;
+}
+.subscribe-table .credit {
+  font-size: 16px;
+  color: green;
+}
+
+.subscribe-table th,
+td {
+  padding: 16px;
+
+  border-bottom: 1px solid #ddd;
+  word-wrap: break-word;
+}
+
+.subscribe-plans-section {
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.subscribe-plans-section img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.subscribe-plans-section ul {
+  margin-top: 25px;
+}
+
+.subscribe-plans-section ul li {
+  background: rgba(128, 128, 128, 0.346);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.subscribe-plans-section ul h1 {
+  font-weight: bold;
+  font-size: 22px;
+}

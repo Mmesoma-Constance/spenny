@@ -1,0 +1,219 @@
+.goals-content-area {
+  display: flex;
+  gap: 22px;
+  padding: 10px 15px;
+  margin-left: 240px;
+  margin-top: 80px;
+}
+
+.goals-side-content {
+  flex: 2.3;
+}
+
+.goals-content {
+  flex: 1.6;
+}
+
+.savings-container {
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  color: black;
+
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+/* goals */
+
+.goals-container {
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.goals-container h1 {
+  font-size: 25px;
+  font-weight: bold;
+  left: 0;
+}
+
+.goals-container li {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.goals-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goals-heading button {
+  background: gold;
+  color: brown;
+  padding: 6px 20px;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.goals-heading button:hover {
+  opacity: 85%;
+}
+
+.goals-progress .travel-progress-container {
+  width: 100%;
+  background: rgba(128, 128, 128, 0.881);
+  height: 25px;
+
+  margin-bottom: 15px;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.goals-progress .travel-progress {
+  position: absolute;
+  z-index: 10;
+  width: 20%;
+  height: 25px;
+  background: gold;
+  text-align: center;
+  color: brown;
+}
+
+.goals-progress .iphone-progress-container {
+  width: 100%;
+  background: rgba(128, 128, 128, 0.881);
+  height: 25px;
+
+  margin-bottom: 15px;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.goals-progress .iphone-progress {
+  position: absolute;
+  z-index: 10;
+  width: 43%;
+  height: 25px;
+  background: gold;
+  text-align: center;
+  color: brown;
+}
+
+.goals-progress .macbook-progress-container {
+  width: 100%;
+  background: rgba(128, 128, 128, 0.881);
+  height: 25px;
+
+  margin-bottom: 15px;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.goals-progress .macbook-progress {
+  position: absolute;
+  z-index: 10;
+  width: 14%;
+  height: 25px;
+  background: gold;
+  text-align: center;
+  color: brown;
+}
+
+.goals-progress .car-progress-container {
+  width: 100%;
+  background: rgba(128, 128, 128, 0.881);
+  height: 25px;
+
+  margin-bottom: 15px;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.goals-progress .car-progress {
+  position: absolute;
+  z-index: 10;
+  width: 8%;
+  height: 25px;
+
+  background: gold;
+  text-align: center;
+  color: brown;
+}
+
+/* goals-circle */
+
+.goals-circle-div {
+  margin-top: 50px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Outer goals-circle container */
+.goals-circle-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+/* Main goals-circle background */
+.goals-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(
+    #4cd137 0deg 70deg,
+
+    #e84118 70deg 360deg
+  );
+}
+
+/* Inner goals-circle to create the hollow effect */
+.goals-circle::before {
+  content: "";
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Centered text inside the goals-circle */
+.goals-circle-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+
+.goals-circle-text h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}

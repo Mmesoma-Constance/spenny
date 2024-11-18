@@ -1,0 +1,298 @@
+.finance-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.finance-container .box {
+  height: 140px;
+  width: 210px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.finance-container .box h2 {
+  font-size: 22px;
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+
+.finance-container .box h1 {
+  font-size: 28px;
+  font-weight: bolder;
+  /* text-align: center; */
+}
+
+.finance-container .balance {
+  /* background: turquoise; */
+  color: black;
+  width: 225px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.finance-container .balance .number {
+  font-size: 33px;
+}
+
+.finance-container .balance button {
+  background: gray;
+  font-size: 15px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+.finance-container .balance button:hover {
+  background-color: rgba(0, 0, 0, 0.742);
+}
+
+.finance-container .income {
+  /* background: linear-gradient(135deg, #ff6b6b, #ff9a8b); */
+  background-image: url("./card-image-4.png");
+}
+
+.finance-container .expenses {
+  /* background: linear-gradient(135deg, #4cd137, #32ff7e); */
+  background-image: url("./card-image8.avif");
+}
+
+.finance-container .savings {
+  background: #9f7fe0;
+}
+
+/* transaction */
+
+.transaction {
+  margin-top: 40px;
+}
+
+.transaction h1 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.transaction .img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.transaction .img-container {
+  display: flex;
+  gap: 30px;
+}
+
+.transaction input {
+  width: 220px;
+  height: 40px;
+  background: white;
+  margin: 20px 10px 0px 0px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.transaction button {
+  background: gold;
+  color: brown;
+  padding: 6px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.transaction button:hover {
+  opacity: 85%;
+}
+
+/* budgets */
+
+.budget-div {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.budget {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.budget .heading {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 20px 10px 20px;
+}
+
+.budget .budget-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.budget .budget-container h4 {
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.budget .limit {
+  width: 50%;
+}
+
+.budget .spent {
+  width: 50%;
+}
+
+.budget .spent h4 {
+  color: red;
+}
+
+.budget .line {
+  border-right: 2px solid black;
+  padding: 10px;
+}
+
+.budget .progress-container {
+  width: 90%;
+  background: gray;
+  height: 10px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.budget .progress {
+  position: absolute;
+  z-index: 10;
+  width: 70%;
+  height: 10px;
+  background: gold;
+}
+
+.top-expenses {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.top-expenses h1 {
+  font-size: 21px;
+  font-weight: bold;
+  padding-bottom: 13px;
+}
+
+.top-expenses li {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  padding-bottom: 6px;
+  font-size: 16.4px;
+}
+.top-expenses h4 {
+  color: red;
+}
+
+/* table */
+
+.table {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.table h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.table p {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 10px 0;
+  color: brown;
+}
+
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.table thead {
+  background: rgba(255, 217, 0, 0.193);
+}
+
+.table tr {
+  width: 200px;
+}
+
+.table td {
+  padding-bottom: 15px;
+}
+
+.table .debit {
+  /* font-size: 16px; */
+  color: red;
+}
+.table .credit {
+  font-size: 16px;
+  color: green;
+}
+
+.table th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  word-wrap: break-word;
+}
+
+.table tbody tr:nth-child(even) {
+  /* background-color: rgba(128, 128, 128, 0.356); */
+  background-color: #f9f9f9;
+}
+/* 
+.table tbody th:nth-child(1),
+.table tbody td:nth-child(1) {
+  width: 15%;
+}
+
+.table tbody th:nth-child(2),
+.table tbody td:nth-child(2) {
+  width: 23%;
+} */
+/* 
+.table tbody th:nth-child(3),
+.table tbody td:nth-child(3) {
+  width: 30%;
+}
+
+.table tbody th:nth-child(4),
+.table tbody td:nth-child(4) {
+  width: 30%;
+} */
