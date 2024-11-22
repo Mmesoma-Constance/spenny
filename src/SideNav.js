@@ -26,10 +26,10 @@ const SideNav = () => {
             <Link to="/dashboard/subscription">Subscriptions</Link>
           </li>
           <li className="">
-            <Link to="/dashboard/budget">Budgets</Link>
+            <Link to="/dashboard/budgets">Budgets</Link>
           </li>
           <li className="">
-            <Link to="/dashboard/reports">Analysics</Link>
+            <Link to="/dashboard/analysis">Analysis</Link>
           </li>
         </ul>
         <ul className="side-footer">

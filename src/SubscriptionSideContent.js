@@ -3,6 +3,7 @@ import netflix from "./netflix.png";
 import amazon from "./amazon.png";
 import youtube from "./youtube.png";
 import spotify from "./spotify.png";
+import apple from "./apple.png";
 
 const SubscriptionSideContent = () => {
   return (
@@ -24,7 +25,7 @@ const SubscriptionSideContent = () => {
         <li className="">
           <div className="flex gap-2 items-center">
             <img src={amazon} alt="" className="" />
-            <h3 className="font-bold text-xl">amazon</h3>{" "}
+            <h3 className="font-bold text-xl">Amazon</h3>{" "}
           </div>
           <div className="flex gap-1 items-center">
             <h1>$23</h1> <span>/ Per Month</span>
@@ -34,7 +35,7 @@ const SubscriptionSideContent = () => {
         <li className="">
           <div className="flex gap-2 items-center">
             <img src={youtube} alt="" className="" />
-            <h3 className="font-bold text-xl">youtube</h3>{" "}
+            <h3 className="font-bold text-xl">Youtube</h3>{" "}
           </div>
           <div className="flex gap-1 items-center">
             <h1>$23</h1> <span>/ Per Month</span>
@@ -44,7 +45,7 @@ const SubscriptionSideContent = () => {
         <li className="">
           <div className="flex gap-2 items-center">
             <img src={spotify} alt="" className="" />
-            <h3 className="font-bold text-xl">spotify</h3>{" "}
+            <h3 className="font-bold text-xl">Spotify</h3>{" "}
           </div>
           <div className="flex gap-1 items-center">
             <h1>$23</h1> <span>/ Per Month</span>
@@ -53,8 +54,8 @@ const SubscriptionSideContent = () => {
 
         <li className="">
           <div className="flex gap-2 items-center">
-            <img src={netflix} alt="" className="" />
-            <h3 className="font-bold text-xl">Netflix</h3>{" "}
+            <img src={apple} alt="" className="" />
+            <h3 className="font-bold text-xl">Apple</h3>{" "}
           </div>
           <div className="flex gap-1 items-center">
             <h1>$23</h1> <span>/ Per Month</span>

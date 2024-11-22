@@ -1,0 +1,122 @@
+.analytics-content-area {
+  display: flex;
+  gap: 22px;
+  padding: 10px 15px;
+  margin-left: 240px;
+  margin-top: 80px;
+}
+
+.analytics-side-content {
+  flex: 2;
+}
+
+.analytics-content {
+  flex: 2;
+}
+
+.analytics-circle-container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+/* Main analytics-circle background */
+.analytics-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(
+    #ff6b6b 0deg 80deg,
+    #4cd137 100deg 130deg,
+    #00a8ff 140deg 220deg,
+    #fbc531 230deg 280deg,
+    #e84118 290deg 320deg,
+    #9b59b6 325deg 360deg
+  );
+}
+
+.analytics-circle-div,
+.networth {
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.analytics-top-expenses {
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+
+  width: 100%;
+}
+
+/* Inner analytics-circle to create the hollow effect */
+/* .analytics-circle::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1;
+} */
+
+.expenses-progress1 {
+  height: 15px;
+  width: 70%;
+  background: purple;
+}
+.expenses-progress2 {
+  height: 15px;
+  width: 50%;
+  background: purple;
+}
+.expenses-progress3 {
+  height: 15px;
+  width: 40%;
+  background: purple;
+}
+
+.income-source {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.analytics-box {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.income-source h2 {
+  font-weight: 500;
+}
+
+.income-height1 {
+  height: 50px;
+  width: 30px;
+  background: green;
+}
+
+.income-height2 {
+  height: 70px;
+  width: 30px;
+  background: blue;
+}

@@ -135,3 +135,7 @@ const Graph1 = () => {
 };
 
 export default Graph1;
+
+/////////////////////////////////////
+
+// income vs expenses

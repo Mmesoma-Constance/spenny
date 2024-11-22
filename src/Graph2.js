@@ -19,46 +19,32 @@ ChartJS.register(
   Legend
 );
 
-const Piechart = () => {
+const Graph2 = () => {
   const data = {
-    labels: [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "June",
-      "Shopping",
-
-      "Apr",
-      "May",
-
-      "Shopping",
-    ],
+    labels: ["Jan", "Feb", "Mar", "Apr", "May", "June"],
     datasets: [
       {
-        label: "Budget",
-        data: [500, 600, 800, 400, 500, 450, 700, 600, 600, 300],
+        label: "Cost 1",
+        data: [5, 6, 8, 7, 5, 6, 4],
         backgroundColor: "rgba(75, 192, 192, 0.7)", // Green
       },
       {
-        label: "Limit Exceeded",
-        data: [100, 250, 500, 0, 400, 0, 500, 100, 400, 0],
-        backgroundColor: "red", // Red
+        label: "Cost 2",
+        data: [3, 4, 3, 2, 4, 5, 3],
+        backgroundColor: "rgba(255, 99, 132, 0.7)", // Red
       },
     ],
   };
 
   const options = {
     responsive: true,
-    maintainAspectRatio: false,
     plugins: {
       legend: {
         position: "top",
       },
       title: {
         display: true,
-        text: "Daily Budget",
+        text: "Customer Acquisition Cost (CAC)",
       },
     },
     scales: {
@@ -74,7 +60,7 @@ const Piechart = () => {
           beginAtZero: true,
         },
         ticks: {
-          stepSize: 500, // Adjust step size for better visibility
+          stepSize: 1, // Adjust step size for better visibility
         },
       },
     },
@@ -85,11 +71,10 @@ const Piechart = () => {
       className="graph-container"
       style={{
         width: "100%",
-        // maxWidth: "2500px",
+        maxWidth: "500px",
         margin: "auto",
-
-        // maxHeight: "350px",
-        height: "350px",
+        maxHeight: "350px",
+        height: "100%",
       }}
     >
       <Bar data={data} options={options} />
@@ -97,4 +82,4 @@ const Piechart = () => {
   );
 };
 
-export default Piechart;
+export default Graph2;

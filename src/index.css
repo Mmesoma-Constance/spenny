@@ -173,3 +173,8 @@ button:hover {
   align-self: self-start;
   padding-left: 20px;
 }
+
+.budgets-content-area {
+  margin-left: 240px;
+  margin-top: 80px;
+}

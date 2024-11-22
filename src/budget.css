@@ -1,0 +1,113 @@
+.budgets-content-area {
+  padding: 10px 15px;
+  margin-left: 240px;
+  margin-top: 100px;
+}
+
+.budgets-side-content {
+  flex: 1.5;
+}
+
+.budgets-content {
+  flex: 2.5;
+}
+
+.budgets-spent-section {
+  /* margin-top: 20px; */
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.budgets-spent-section .payment-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.budgets-spent-section .payment-heading h1 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.budgets-spent-section ul {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.budgets-spent-section li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.budgets-spent-section h3 {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.budgets-spent-section h4 {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.daily-budget-progress-container {
+  width: 100%;
+  background: rgba(128, 128, 128, 0.881);
+  height: 10px;
+
+  margin-top: 15px;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.daily-budget-progress {
+  position: absolute;
+  z-index: 10;
+  width: 80%;
+  height: 10px;
+  background: red;
+}
+
+.weekly-budget-progress-container {
+  width: 100%;
+  background: rgba(128, 128, 128, 0.881);
+  height: 10px;
+
+  margin-top: 15px;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.weekly-budget-progress {
+  position: absolute;
+  z-index: 10;
+  width: 55%;
+  height: 10px;
+  background: orange;
+}
+
+.monthly-budget-progress-container {
+  width: 100%;
+  background: rgba(128, 128, 128, 0.881);
+  height: 10px;
+
+  margin-top: 15px;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.monthly-budget-progress {
+  position: absolute;
+  z-index: 10;
+  width: 24%;
+  height: 10px;
+  background: gold;
+}

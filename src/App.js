@@ -13,6 +13,8 @@ import { useLocation } from "react-router-dom";
 import Payments from "./Payments";
 import Cards from "./Cards";
 import Subscription from "./Subscription";
+import Budgets from "./Budgets";
+import Analysis from "./Analysis";
 
 function App() {
   return (
@@ -44,8 +46,8 @@ function DashboardLayout() {
             <Route path="/payments" element={<Payments />} />
             <Route path="/cards" element={<Cards />} />
             <Route path="/subscription" element={<Subscription />} />
-            {/* <Route path="/budgets" element={<Budgets />} />
-            <Route path="/analysis" element={<Analysis />} /> */}
+            <Route path="/budgets" element={<Budgets />} />
+            <Route path="/analysis" element={<Analysis />} />
           </Routes>
         </div>
         {/* {location.pathname === "/" && (

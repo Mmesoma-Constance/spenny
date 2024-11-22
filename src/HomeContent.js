@@ -65,8 +65,8 @@ const HomeContent = () => {
         </div>
       </section>
 
-      <section className="budget-div">
-        <div className="budget">
+      <section className="home-budget-div flex gap-4 mt-6">
+        <div className="budget w-[50%]">
           <div className="heading">
             <h1>Monthly Income</h1>
             <span>$10,000.00</span>
@@ -88,7 +88,7 @@ const HomeContent = () => {
           </div>
         </div>
 
-        <div className="top-expenses">
+        <div className="top-expenses w-[50%]">
           <h1>Top Expenses</h1>
           <ul className="">
             <li className="">

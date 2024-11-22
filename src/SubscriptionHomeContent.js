@@ -44,7 +44,7 @@ const SubscriptionHomeContent = () => {
               <h4 className="font-semibold">Allowed</h4>
             </td>
             <td>
-              <button className="bg-[gold] p-2 px-5 text-[brown] font-semibold w-52 rounded-lg hover:bg-opacity-85">
+              <button className="bg-[gold] p-2 text-[15px] px-5 text-[brown] font-semibold w-52 rounded-lg hover:bg-opacity-85">
                 Cancel Subscription
               </button>
             </td>
@@ -73,7 +73,7 @@ const SubscriptionHomeContent = () => {
               <h4 className="font-semibold">Not Allowed</h4>
             </td>
             <td>
-              <button className="bg-[gold] p-2 px-5 text-[brown] font-semibold w-52 rounded-lg hover:bg-opacity-85">
+              <button className="bg-[gold] p-2 text-[15px] px-5 text-[brown] font-semibold w-52 rounded-lg hover:bg-opacity-85">
                 Activate Subscription
               </button>
             </td>
@@ -102,7 +102,7 @@ const SubscriptionHomeContent = () => {
               <h4 className="font-semibold">Allowed</h4>
             </td>
             <td>
-              <button className="bg-[gold] p-2 px-5 text-[brown] font-semibold w-52 rounded-lg hover:bg-opacity-85">
+              <button className="bg-[gold] p-2 text-[15px] px-5 text-[brown] font-semibold w-52 rounded-lg hover:bg-opacity-85">
                 Cancel Subscription
               </button>
             </td>
@@ -131,7 +131,7 @@ const SubscriptionHomeContent = () => {
               <h4 className="font-semibold">Not Allowed</h4>
             </td>
             <td>
-              <button className="bg-[gold] p-2 px-5 text-[brown] font-semibold w-52 rounded-lg hover:bg-opacity-85">
+              <button className="bg-[gold] p-2 text-[15px] px-5 text-[brown] font-semibold w-52 rounded-lg hover:bg-opacity-85">
                 Activate Subscription
               </button>
             </td>
@@ -160,7 +160,7 @@ const SubscriptionHomeContent = () => {
               <h4 className="font-semibold">Not Allowed</h4>
             </td>
             <td>
-              <button className="bg-[gold] p-2 px-5 text-[brown] font-semibold w-52 rounded-lg hover:bg-opacity-85">
+              <button className="bg-[gold] p-2 text-[15px] px-5 text-[brown] font-semibold w-52 rounded-lg hover:bg-opacity-85">
                 Activate Subscription
               </button>
             </td>
