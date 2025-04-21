@@ -3,15 +3,15 @@
   flex-direction: row;
   gap: 20px;
   margin-top: 20px;
-  background: white;
+  background: #1e3a47;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 30px 20px;
+  padding: 35px 20px;
   border-radius: 10px;
 }
 
 .finance-container .box {
   height: 140px;
-  width: 210px;
+  /* width: 210px; */
   padding: 20px;
   border-radius: 10px;
   color: white;
@@ -22,37 +22,7 @@
   font-size: 22px;
   font-weight: 500;
   padding-bottom: 4px;
-}
-
-.finance-container .box h1 {
-  font-size: 28px;
-  font-weight: bolder;
-  /* text-align: center; */
-}
-
-.finance-container .balance {
-  /* background: turquoise; */
-  color: black;
-  width: 225px;
-  font-weight: bolder;
-  font-size: 25px;
-}
-
-.finance-container .balance .number {
-  font-size: 33px;
-}
-
-.finance-container .balance button {
-  background: gray;
-  font-size: 15px;
-  padding: 5px 15px;
-  border-radius: 20px;
   color: white;
-  margin-top: 20px;
-}
-
-.finance-container .balance button:hover {
-  background-color: rgba(0, 0, 0, 0.742);
 }
 
 .finance-container .income {
@@ -72,7 +42,7 @@
 /* transaction */
 
 .transaction {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .transaction h1 {
@@ -89,27 +59,13 @@
   cursor: pointer;
 }
 
-.transaction .img-container {
-  display: flex;
-  gap: 30px;
-}
-
 .transaction input {
   width: 220px;
   height: 40px;
-  background: white;
+  /* background: white; */
   margin: 20px 10px 0px 0px;
-  border-radius: 10px;
+  /* border-radius: 50px; */
   padding: 20px;
-}
-
-.transaction button {
-  background: gold;
-  color: brown;
-  padding: 6px 20px;
-  font-weight: bold;
-  font-size: 18px;
-  border-radius: 10px;
 }
 
 .transaction button:hover {
@@ -221,8 +177,11 @@
 /* table */
 
 .table {
-  margin-top: 40px;
+  margin-top: 30px;
   width: 100%;
+  padding: 30px;
+  background: white;
+  border-radius: 14px;
 }
 
 .table h1 {
@@ -239,16 +198,21 @@
 .table table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 17px;
+  /* font-size: 16px; */
   margin-bottom: 10px;
+  background: white;
+  overflow: hidden;
+  padding: 20px;
 }
 
 .table thead {
-  background: rgba(255, 217, 0, 0.193);
+  background: #ca8a04;
+  color: white;
 }
 
 .table tr {
   width: 200px;
+  padding: 20px;
 }
 
 .table td {
@@ -273,9 +237,10 @@ td {
 }
 
 .table tbody tr:nth-child(even) {
-  /* background-color: rgba(128, 128, 128, 0.356); */
-  background-color: #f9f9f9;
+  background-color: #1e3a471c;
+  border-radius: 50px;
 }
+
 /* 
 .table tbody th:nth-child(1),
 .table tbody td:nth-child(1) {

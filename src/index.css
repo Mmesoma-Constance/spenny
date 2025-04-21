@@ -45,14 +45,14 @@ button:hover {
 
 .sidenav {
   width: 230px;
-  background-color: gray;
+  background-color: #1e3a47;
   color: white;
-  padding: 20px 20px 20px 25px;
+
   position: fixed;
   height: 100vh;
   z-index: 10000;
 }
-
+/* 
 .sidenav ul {
   margin-top: 10px;
   display: flex;
@@ -63,21 +63,24 @@ button:hover {
 .sidenav li {
   font-size: 18px;
   opacity: 90%;
-}
+ 
+} */
 
 .sidenav h1 {
   font-size: 30px;
   font-weight: bold;
   padding: 14px 0px;
+  padding: 20px 20px 20px 25px;
 }
-
-.sidenav .active {
-  background: gold;
-  color: chocolate;
+/* 
+.sidenav a.active {
+  background: #6d99ad85;
+ 
   padding: 7px 10px;
-  border-radius: 8px;
+ 
   font-weight: 500;
   opacity: 100%;
+  width: 230px;
 }
 
 .sidenav li:hover {
@@ -86,8 +89,8 @@ button:hover {
 }
 
 .sidenav .side-footer {
-  padding-top: 150px;
-}
+  padding-top: 50px;
+} */
 
 .topNav {
   position: fixed;
@@ -95,14 +98,14 @@ button:hover {
   padding-left: 225px;
   width: 100%;
   /* height: 60px; */
-  z-index: 1000;
+  z-index: 10;
   margin-bottom: 50px;
   margin: auto 225px 300px auto;
 }
 
 .main-content {
   flex: 1;
-  background: #bdbdcb61;
+  background: #deeef2;
 }
 
 .content-area {
@@ -114,11 +117,11 @@ button:hover {
 }
 
 .side-content {
-  flex: 2;
+  flex: 1.5;
 }
 
 .content {
-  flex: 2;
+  flex: 4;
 }
 
 .welcome-msg {
@@ -136,8 +139,10 @@ button:hover {
   justify-content: space-between;
   gap: 50px;
   align-items: center;
-  background: rgba(255, 217, 0, 0.193);
+  background: #1e3a47b0;
+  /* background: rgba(255, 217, 0, 0.193); */
   height: 80px;
+  color: white;
 }
 
 .profile-container {
@@ -152,11 +157,14 @@ button:hover {
 }
 
 .profile {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
+  background: #ca8a04;
+  object-position: top;
   object-fit: cover;
-  border: 3px solid brown;
+  /* padding-top: 3px; */
+  /* border: 3px solid brown; */
 }
 
 .header-container {

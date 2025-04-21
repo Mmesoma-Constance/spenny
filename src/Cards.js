@@ -73,10 +73,6 @@ const Cards = () => {
                 </td>
 
                 <td>
-                  <h3>Card Holder</h3>{" "}
-                  <h4 className="font-semibold">Mmesoma Constance</h4>
-                </td>
-                <td>
                   <h3>Valid</h3> <h4 className="font-semibold">12/05/2024</h4>
                 </td>
                 <td>
@@ -104,10 +100,6 @@ const Cards = () => {
                   <h4 className="font-semibold">7836 0582 4198</h4>
                 </td>
 
-                <td>
-                  <h3>Card Holder</h3>{" "}
-                  <h4 className="font-semibold">Mmesoma Constance</h4>
-                </td>
                 <td>
                   <h3>Valid</h3>{" "}
                   <h4 className="font-semibold text-red-600">

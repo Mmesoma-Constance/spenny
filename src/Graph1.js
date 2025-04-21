@@ -81,11 +81,12 @@ ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 const Graph1 = () => {
   // Data for the chart
   const data = {
-    labels: ["Apple", "Netflix", "Amazon", "Spotify", "YouTube"], // Months
+    labels: ["Apple", "Netflix", "Amazon", "Spotify", "YouTube","Netflix", 
+       "YouTube",], // Months
     datasets: [
       {
         label: "Monthly Spending ($)",
-        data: [1000, 900, 750, 500, 400], // Spending values
+        data: [1000, 900, 750, 500, 400, 300, 200, 650, ], // Spending values
         backgroundColor: [
           "rgba(255, 99, 132, 0.6)",
           "rgba(255, 159, 64, 0.6)",
@@ -129,7 +130,7 @@ const Graph1 = () => {
   return (
     <div
       className="graph-container"
-      style={{ width: "100%", maxWidth: "500px", height: "350px" }}
+      style={{ width: "100%", maxWidth: "700px", height: "360px" }}
     >
       <h1 className="font-bold text-2xl py-2 p-8 pb-7 ">Total Spent</h1>
       <Bar data={data} options={options} />

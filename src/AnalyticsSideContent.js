@@ -1,12 +1,14 @@
 import React from "react";
 import AnalyticsGraph from "./AnalyticsGraph";
+import Graph1 from "./Graph1";
 import "./analytics.css";
 
 const AnalyticsSideContent = () => {
   return (
     <>
       <div className="mt-5">
-        <AnalyticsGraph />{" "}
+        {/* <AnalyticsGraph /> */}
+        <Graph1 />
       </div>
       <section className="analytics-circle-div py-10">
         <h1 className="font-bold text-[23px]">Activity</h1>

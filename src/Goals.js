@@ -6,13 +6,15 @@ const Goals = () => {
   return (
     <>
       <div className="goals-content-area">
-        <div className="goals-content">
+     <div className="goals-side-content">
+          <GoalsSideContent />
+        </div>
+        
+           <div className="goals-content">
           <GoalsHomeContent />
         </div>
 
-        <div className="goals-side-content">
-          <GoalsSideContent />
-        </div>
+        
       </div>
     </>
   );

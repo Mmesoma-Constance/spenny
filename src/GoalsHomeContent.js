@@ -1,88 +1,40 @@
 import React from "react";
+import GoalsEdit from "./Components/GoalsEdit";
 
 const GoalsHomeContent = () => {
   return (
     <>
       <section className="goals-container">
-        <div className="goals-heading">
-          <h1>My Goals</h1>
-          <button>Add</button>
-        </div>
-        <div className="activity">
-          <ul className="goals-progress">
-            <li className="">
-              <h2>
-                <h3>Vacation</h3>
-                <p>$5,000 / $17,000</p>
-              </h2>
-              <button className="text-red-700 font-bold text-[15px]">
-                Withdraw
-              </button>
-              <button className="text-red-700 font-bold text-[15px]">
-                Remove
-              </button>
-            </li>
-            <div className="travel-progress-container">
-              <div className="travel-progress">
-                <h4 className="font-semibold">20%</h4>
-              </div>
-            </div>
-            <li className="">
-              <h2>
-                <h3>iPhone 15 </h3>
-                <p>$10,000 / $32,000</p>
-              </h2>
-
-              <button className="text-red-700 font-bold text-[15px]">
-                Withdraw
-              </button>
-              <button className="text-red-700 font-bold text-[15px]">
-                Remove
-              </button>
-            </li>
-            <div className="iphone-progress-container">
-              <div className="iphone-progress">
-                {" "}
-                <h4 className="font-semibold">43%</h4>
-              </div>
-            </div>
-            <li className="">
-              <h2>
-                <h3>Macbook Pro</h3>
-                <p>$12,000 / $40,000</p>
-              </h2>
-
-              <button className="text-red-700 font-bold text-[15px]">
-                Withdraw
-              </button>
-              <button className="text-red-700 font-bold text-[15px]">
-                Remove
-              </button>
-            </li>
-            <div className="macbook-progress-container">
-              <div className="macbook-progress">
-                <h4 className="font-semibold">14%</h4>
-              </div>
-            </div>
-            <li className="">
-              <h2>
-                <h3>Car</h3>
-                <p>$5,000 / $53,000</p>
-              </h2>
-
-              <button className="text-red-700 font-bold text-[15px]">
-                Withdraw
-              </button>
-              <button className="text-red-700 font-bold text-[15px]">
-                Remove
-              </button>
-            </li>
-            <div className="car-progress-container">
-              <div className="car-progress">
-                <h4 className="font-semibold">8%</h4>
-              </div>
-            </div>
-          </ul>
+        <h1 className="font-bold text-2xl pb-2 mt-7">My Current Goals</h1>
+        <div className="grid grid-cols-2 gap-5 my-4">
+          <GoalsEdit
+            title="My Birthday Photoshoot"
+            storageTitleKey="first-goal"
+            storagePriceKey="1"
+            initialGoalPrice={21450.89}
+            saved={12867.51}
+          />
+          <GoalsEdit
+            title="Buy Washing Machine"
+            storageTitleKey="second-goal"
+            storagePriceKey="2"
+            initialGoalPrice={30600.77}
+            saved={8867.51}
+          />
+          <GoalsEdit
+            title="Trip to Dubai"
+            storageTitleKey="Third-goal"
+            storagePriceKey="3"
+            initialGoalPrice={55300.0}
+            saved={13867.51}
+          />
+          <GoalsEdit
+            title="Buy New Wig"
+            storageTitleKey="fourth-goal"
+            storagePriceKey="4"
+            initialGoalPrice={10500.42}
+            saved={6867.51}
+          />
         </div>
       </section>
     </>

@@ -28,22 +28,23 @@ const Piechart = () => {
       "Apr",
       "May",
       "June",
-      "Shopping",
+      "July",
+      "Aug",
+      "Sept",
+      "Oct",
+      "Nov",
+      "Dec",
 
-      "Apr",
-      "May",
-
-      "Shopping",
     ],
     datasets: [
       {
         label: "Budget",
-        data: [500, 600, 800, 400, 500, 450, 700, 600, 600, 300],
-        backgroundColor: "rgba(75, 192, 192, 0.7)", // Green
+        data: [500, 600, 800, 400, 500, 450, 700, 600, 600, 300, 800, 400],
+        backgroundColor: "rgba(128, 128, 128, 0.651)", // Green
       },
       {
         label: "Limit Exceeded",
-        data: [100, 250, 500, 0, 400, 0, 500, 100, 400, 0],
+        data: [100, 250, 500, 0, 400, 0, 500, 100, 400, 0, 500, 150],
         backgroundColor: "red", // Red
       },
     ],
@@ -58,7 +59,7 @@ const Piechart = () => {
       },
       title: {
         display: true,
-        text: "Daily Budget",
+        text: "Monthly Budget",
       },
     },
     scales: {

@@ -1,18 +1,19 @@
 .goals-content-area {
-  display: flex;
+  /* display: flex; */
   gap: 22px;
   padding: 10px 15px;
   margin-left: 240px;
+  margin-right: 10px;
   margin-top: 80px;
 }
-
+/* 
 .goals-side-content {
-  flex: 2.3;
+  flex: 2.1;
 }
 
 .goals-content {
-  flex: 1.6;
-}
+  flex: 1;
+} */
 
 .savings-container {
   background: #f9f9f9;
@@ -26,14 +27,14 @@
 }
 
 /* goals */
-
+/* 
 .goals-container {
   margin-top: 20px;
   background: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   border-radius: 10px;
-}
+} */
 
 .goals-container h1 {
   font-size: 25px;
@@ -52,9 +53,9 @@
 }
 
 .goals-heading button {
-  background: gold;
-  color: brown;
-  padding: 6px 20px;
+  background: #ca8a04;
+  color: white;
+  padding: 6px 25px;
   font-weight: bold;
   font-size: 17px;
   border-radius: 10px;
@@ -67,11 +68,9 @@
 .goals-progress .travel-progress-container {
   width: 100%;
   background: rgba(128, 128, 128, 0.881);
-  height: 25px;
-
-  margin-bottom: 15px;
+  height: 15px;
+  /* margin-bottom: 15px; */
   position: relative;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -80,16 +79,16 @@
   position: absolute;
   z-index: 10;
   width: 20%;
-  height: 25px;
-  background: gold;
+  height: 15px;
+  background: #ca8a04;
   text-align: center;
   color: brown;
 }
 
 .goals-progress .iphone-progress-container {
   width: 100%;
-  background: rgba(128, 128, 128, 0.881);
-  height: 25px;
+  background: rgba(186, 185, 185, 0.88);
+  height: 15px;
 
   margin-bottom: 15px;
   position: relative;
@@ -102,8 +101,8 @@
   position: absolute;
   z-index: 10;
   width: 43%;
-  height: 25px;
-  background: gold;
+  height: 15px;
+  background: #ca8a04;
   text-align: center;
   color: brown;
 }
@@ -111,7 +110,7 @@
 .goals-progress .macbook-progress-container {
   width: 100%;
   background: rgba(128, 128, 128, 0.881);
-  height: 25px;
+  height: 15px;
 
   margin-bottom: 15px;
   position: relative;
@@ -124,8 +123,8 @@
   position: absolute;
   z-index: 10;
   width: 14%;
-  height: 25px;
-  background: gold;
+  height: 15px;
+  background: #ca8a04;
   text-align: center;
   color: brown;
 }
@@ -133,7 +132,7 @@
 .goals-progress .car-progress-container {
   width: 100%;
   background: rgba(128, 128, 128, 0.881);
-  height: 25px;
+  height: 15px;
 
   margin-bottom: 15px;
   position: relative;
@@ -146,9 +145,9 @@
   position: absolute;
   z-index: 10;
   width: 8%;
-  height: 25px;
+  height: 15px;
 
-  background: gold;
+  background: #ca8a04;
   text-align: center;
   color: brown;
 }

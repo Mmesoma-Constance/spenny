@@ -13,10 +13,10 @@ function ForgotPassword() {
 
     const storedName = localStorage.getItem("userName");
     const storedPassword = localStorage.getItem("userPassword");
+    console.log(storedName);
 
     if (inputName === storedName) {
       setPassword(storedPassword);
-      setError("");
     } else {
       setError("Username not found. Please check your input.");
     }
@@ -48,7 +48,9 @@ function ForgotPassword() {
       {error && <p style={{ color: "red" }}>{error}</p>}
       {password && <p>Your password is: {password}</p>}
       <p>
-        Couldn't remember username?{" "}
+        Couldn't remember username? <Link to="/email-recovery">Try Email</Link>
+      </p>
+      <p>
         <span onClick={handleDeleteAccount}>re-register</span>
       </p>
       <div>

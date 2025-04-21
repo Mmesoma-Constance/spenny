@@ -1,0 +1,46 @@
+.setting-content-area {
+  display: flex;
+  gap: 22px;
+  padding: 10px 15px;
+  margin-left: 240px;
+  margin-top: 80px;
+}
+
+.setting-side-content {
+  flex: 2.3;
+}
+
+.setting-content {
+  flex: 1;
+}
+
+.setting-content {
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.setting-home-content {
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  color: black;
+
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.setting-personal-information {
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  color: black;
+  /* font-size: 18px; */
+  font-weight: 500;
+  margin-top: 20px;
+}

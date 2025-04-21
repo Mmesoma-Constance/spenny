@@ -9,3 +9,17 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import App from "./App";
+// import { BalanceProvider } from "./Components/BalanceContext";
+
+
+// ReactDOM.render(
+//   <BalanceProvider>
+//     <App />
+//     </BalanceProvider>,
+//     document.getElementById("root")
+// );

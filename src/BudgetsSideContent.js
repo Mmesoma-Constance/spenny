@@ -9,7 +9,7 @@ const BudgetsSideContent = () => {
 
       <section className="budgets-spent-section">
         <div className="payment-heading">
-          <h1 className="font-semibold">Top 3 Most Spent</h1>
+          <h1 className="font-extrabold text-yellow-600">Top 4 Most Spent</h1>
         </div>
         <ul className="">
           <li className="">

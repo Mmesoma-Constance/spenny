@@ -21,7 +21,7 @@ const Budgets = () => {
 
       <div className="budgets-content-area">
         <BudgetsHome />{" "}
-        <div className="subscribe-flex-area my-10">
+        <div className="subscribe-flex-area ">
           <div className="budgets-content">
             <Piechart />
           </div>
